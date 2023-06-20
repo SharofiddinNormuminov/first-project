@@ -1,0 +1,500 @@
+/* .about:nth-child(2) {
+    flex-direction: row-reverse;
+} */
+
+/* @font-face{
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #272d38;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* header */
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.nav-right ul {
+  display: none;
+}
+
+.nav-right i{
+  font-size: 2rem;
+}
+
+.navbar .nav-left a {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+/* /navbar */
+
+/* header-elements */
+
+.header-elements {
+  text-align: center;
+}
+
+.header-elements .header-txt h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 100%;
+  text-align: center;
+}
+
+.header-elements .header-txt p {
+  margin: 2.4rem 0;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+button {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  background: #8eadd5;
+  border-radius: 0.8rem;
+  padding: 1rem 2.4rem;
+}
+
+.header-elements .header-img {
+  margin-top: 4.8rem;
+}
+/* /header-elements */
+
+/* companies */
+.companies {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.companies p {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  background: #f6f6f6;
+  border-radius: 0.8rem;
+  padding: 3.8rem 1.6rem;
+}
+/* /companies */
+
+/* branding */
+.branding {
+  margin-top: 8.8rem;
+  text-align: center;
+}
+
+.branding-box:nth-child(2) {
+  margin-top: 12rem;
+}
+
+.branding .branding-txt h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 100%;
+
+  text-align: center;
+}
+
+.branding .branding-txt p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  text-align: center;
+  margin: 2.4rem 0 3.2rem;
+}
+
+.branding .branding-txt a i {
+  transform: rotate(90deg);
+  margin-bottom: 2.4rem;
+  font-size: 2.2rem;
+}
+
+/* /branding */
+
+/* testimonials */
+.testimonials {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  text-align: center;
+}
+
+.testimonials span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.testimonials h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 100%;
+
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.testimonials .peoples {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.testimonials .andrew {
+  background: #f6f6f6;
+  border-radius: 2rem;
+  padding: 3.2rem 3.5rem;
+}
+
+.peoples .andrew h4 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-top: 0.8rem;
+}
+
+.peoples .andrew p {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 130%;
+
+  text-align: center;
+  margin-top: 2.7rem;
+}
+
+/* /testimonials */
+
+/* keyingiKAttaIsh */
+.keyingiKAttaIsh {
+  text-align: center;
+  background: #f6f6f6;
+  border-radius: 2rem;
+  padding: 5.6rem 3.5rem;
+}
+
+.keyingiKAttaIsh img {
+  display: none;
+}
+
+.keyingiKAttaIsh .keyingiKAttaIsh-txt h3 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 100%;
+
+  text-align: center;
+}
+
+.keyingiKAttaIsh .keyingiKAttaIsh-txt p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  margin: 3.2rem 0 4.8rem;
+}
+
+/* /keyingiKAttaIsh */
+
+/* footer */
+footer {
+  margin-top: 12.8rem;
+  padding-top: 10.4rem;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+.footer-elements {
+  margin-top: 10rem;
+}
+
+.resources {
+  margin-bottom: 7.2rem;
+}
+
+.footer-elements .resources h4 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer-elements .resources p {
+  width: 18.9rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.footer-elements .resources a {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 100%;
+}
+
+.footer-elements .resources ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 100%;
+  margin-top: 9.2rem;
+}
+footer{
+  padding-bottom: 2.4rem;
+}
+/* /footer */
+
+/* media screen laptop */
+
+@media screen and (min-width: 1240px) {
+  .container {
+    max-width: 1065px;
+    margin: 0 auto;
+  }
+  /* header */
+
+  .navbar {
+    margin-top: 4.8rem;
+  }
+
+  .nav-left a {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+  }
+  .nav-right ul {
+    display: block;
+    display: flex;
+    gap: 4.4rem;
+  }
+
+  .nav-right ul li a {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-transform: lowercase;
+  }
+  .nav-right i {
+    display: none;
+  }
+
+  .header-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7.7rem;
+    margin-bottom: 15.7rem;
+  }
+
+  .header-elements .header-txt h1 {
+    max-width: 54rem;
+    text-align: start;
+    font-size: 6.4rem;
+  }
+
+  .header-elements .header-txt p {
+    max-width: 52.5rem;
+    font-size: 1.8rem;
+    text-align: start;
+  }
+
+  button {
+    display: flex;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+  }
+
+  .companies p {
+    font-size: 1.6rem;
+  }
+
+  .company-logos {
+    max-width: 91.5rem;
+    margin: 0 auto;
+    padding: 2.2rem 2.4rem;
+  }
+
+  /* /header */
+
+  /* main */
+
+  /* branding */
+
+  .branding {
+    margin-top: 13.6rem;
+    text-align: start;
+  }
+
+  .branding-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .branding-box:nth-child(1) {
+    flex-direction: row-reverse;
+  }
+
+  .branding-box .branding-txt h2 {
+    max-width: 43.5rem;
+    font-size: 4.8rem;
+
+    text-align: start;
+  }
+
+  .branding-box .branding-txt p {
+    max-width: 34rem;
+    text-align: start;
+  }
+
+  .branding .branding-txt a i {
+  transform: rotate(360deg);
+  font-size: 3.5rem;
+}
+
+  /* /branding */
+
+  /* testimonials */
+  .testimonials {
+    margin-top: 13.6rem;
+    margin-bottom: 13.6rem;
+  }
+
+  .testimonials span {
+    font-size: 1.6rem;
+  }
+
+  .testimonials h2 {
+    max-width: 43.5rem;
+    font-size: 4.8rem;
+    margin: 0 auto 3.8rem;
+    margin-top: 1.6rem;
+  }
+
+  .testimonials .peoples {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+  }
+  /* /testimonials */
+
+  /* keyingiKAttaIsh */
+
+  .keyingiKAttaIsh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .keyingiKAttaIsh .keyingiKAttaIsh-img img {
+    display: block;
+  }
+
+  .keyingiKAttaIsh .keyingiKAttaIsh-txt h3 {
+    max-width: 36rem;
+    font-size: 4.8rem;
+    text-align: start;
+    text-transform: none;
+  }
+
+  .keyingiKAttaIsh .keyingiKAttaIsh-txt p {
+    max-width: 36rem;
+    font-size: 1.6rem;
+    text-align: start;
+  }
+  /* /keyingiKAttaIsh */
+
+  /* footer */
+
+  footer .footer-elements {
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .footer-elements .resources {
+    margin-top: 10.5rem;
+    text-align: start;
+  }
+
+  footer .footer-elements .resources p{
+    text-align: start;
+    margin: 0;
+
+  }
+
+  footer p{
+    font-size: 1.6rem;
+    margin-top: 11rem;
+  }
+  footer{
+    padding-bottom: 1.8rem;
+  }
+}
